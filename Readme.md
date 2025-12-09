@@ -157,7 +157,6 @@ fun ProfileScreen(viewModel: ProfileViewModel) {
 
 ---
 
-## 📸 Screenshots
 
 <!-- Add your screenshots here -->
 
