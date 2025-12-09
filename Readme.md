@@ -162,32 +162,28 @@ fun ProfileScreen(viewModel: ProfileViewModel) {
 <!-- Add your screenshots here -->
 
 ### Loading State
-![Loading State](screenshots/loading_state.png)
+
 *Profile screen showing loading indicator while fetching user data*
 
 ---
 
 ### Profile Loaded
-![Profile Screen](screenshots/profile_loaded.png)
+
 *Main profile screen displaying user information and follow button*
 
 ---
 
 ### Error State
-![Error State](screenshots/error_state.png)
+
 *Error screen with retry functionality when network request fails*
 
 ---
 
 ### Follow Action
-![Follow Action](screenshots/follow_action.png)
+
 *Demonstrating the follow/unfollow functionality with updated follower count*
 
 ---
-
-### Demo Video
-![Demo](screenshots/demo.gif)
-*Full application demo showing all states and interactions*
 
 ---
 
@@ -215,21 +211,3 @@ This project follows **Clean Architecture** principles with clear separation of 
 │  │  - ProfileIntent                                │   │
 │  └─────────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────┘
-                          │
-                          ▼
-┌─────────────────────────────────────────────────────────┐
-│                    DATA MODULE                          │
-│                   (Data Layer)                          │
-│  ┌─────────────────────────────────────────────────┐   │
-│  │  Data Sources                                   │   │
-│  │  - UserRemoteDataSource (Mock API)              │   │
-│  │  - UserLocalDataSource (Cache)                  │   │
-│  └─────────────────────────────────────────────────┘   │
-│  ┌─────────────────────────────────────────────────┐   │
-│  │  Repository Implementation                      │   │
-│  │  - UserRepositoryImpl                           │   │
-│  └─────────────────────────────────────────────────┘   │
-│  ┌─────────────────────────────────────────────────┐   │
-│  │  Mappers                                        │   │
-│  │  - DTO ↔ Domain Model conversions               │   │
-│  └─────────────────────────────────────────────────
