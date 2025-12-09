@@ -1,10 +1,9 @@
 # 📱 MVI Profile App
 
 A modern Android application demonstrating **MVI (Model-View-Intent)** architecture pattern with **Clean Architecture** principles using Jetpack Compose.
-
-![Screenshot_20251209_135820.png](../../../Desktop/Screenshot_20251209_135820.png)
-![Screenshot_20251209_135849.png](../../../Desktop/Screenshot_20251209_135849.png)
-![Screenshot_20251209_135859.png](../../../Desktop/Screenshot_20251209_135859.png)
+![Follow.png](Directory/Follow.png)
+![loading.png](Directory/loading.png)
+![unfollow.png](Directory/unfollow.png)
 ---
 
 ## 📖 Table of Contents
