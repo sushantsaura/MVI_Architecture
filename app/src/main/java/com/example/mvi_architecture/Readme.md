@@ -2,9 +2,7 @@
 
 A modern Android application demonstrating **MVI (Model-View-Intent)** architecture pattern with **Clean Architecture** principles using Jetpack Compose.
 
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+
 ---
 
 ## 📖 Table of Contents
